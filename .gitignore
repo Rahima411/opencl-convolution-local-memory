@@ -1,0 +1,16 @@
+# Build output
+convolution
+*.o
+*.exe
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+*.xcodeproj/
+xcuserdata/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
