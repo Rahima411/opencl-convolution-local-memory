@@ -99,7 +99,3 @@ make plots
 - The timings are single runs. Averaging over several warm-up and timed iterations would give steadier numbers.
 - A larger stencil (5×5 or 7×7) would increase data reuse. That is where local-memory tiling should start to pay off.
 - The optimized kernel could size its tile dynamically, passing it as a `__local` kernel argument, to support other work-group sizes.
-
-## Author
-
-**Rahima** (22I-2144, AI-D). Assignment 4.
